@@ -311,3 +311,37 @@ body{
     justify-content: center;
 }
 
+/* Footer Section Here */
+
+.footer-container{
+    background-color: #001931;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid black;
+}
+
+.footer-logo-link{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 60px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid rgba(229, 231, 235, 1);
+}
+
+#social-links{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+.copyright-description{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+
