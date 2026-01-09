@@ -10,6 +10,7 @@
 
 /* Shared Style */
 
+
 body{
     font-family: "Inter", sans-serif;
 }
@@ -259,3 +260,54 @@ body{
 .brain-list li img{
     margin-right: 10px;
 }
+
+/* Early Access Section Start Here */
+
+.early-access-container{
+    background-color: #F7F6F2;
+    width: 1360px;
+    height: 384px;
+    border-radius: 12px;
+    margin: 120px;
+    display: flex;
+    flex-direction: column;
+}
+
+.early-title{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 80px;
+}
+.early-description{
+    color: #627382;
+    font-size: 16px;
+    text-align: center;
+}
+
+.early-access-btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 16px;
+    padding: 16px 12px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(70, 145, 101, 1);
+    border: none;
+    width: 195px;
+    height: 52px;
+    align-items: center;
+}
+
+.early-last-description{
+    color: #627382;
+    font-size: 16px;
+    text-align: center;
+}
+
+#early-btn-container{
+    display: flex;
+    justify-content: center;
+}
+
