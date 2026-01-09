@@ -214,3 +214,48 @@ body{
     line-height: 22px;
     margin-bottom: 7px;
 }
+
+/* Second Brain Container Start Here */
+
+.second-brain-container{
+    display: flex;
+    justify-content: center;
+    margin: 120px;
+}
+
+.brain-container-txt{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+}
+
+#brain-title{
+    color: #30B868;
+    margin-top: 100px;
+}
+
+.brain-container-txt h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#brain-description{
+    color: #627382;
+    margin: 16 auto;
+}
+
+.brain-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-right: 120px;
+}
+
+.brain-list li{
+    display: flex;
+    gap: 6px;
+}
+
+.brain-list li img{
+    margin-right: 10px;
+}
