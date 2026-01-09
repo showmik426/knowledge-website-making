@@ -1,0 +1,54 @@
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Shared Style */
+.btn-primary{
+    padding: 12px 16px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(70, 145, 101, 1);
+    border: none;
+    width: 150px;
+    height: 44px;
+}
+
+/* Navbar Style */
+
+.nav-logo img{
+    width: 140px;
+    height: 60px;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+
+.menu-items ul{
+    display: flex;
+
+
+}
+.menu-items > ul{
+    justify-content: space-between;
+
+}
+.menu-items-list{
+    display: flex;
+    gap: 32px;
+}
+
+.menu-items > ul > li{
+    text-decoration: none;
+    list-style-type: none;
+}
