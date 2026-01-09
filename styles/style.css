@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -7,6 +9,10 @@
 }
 
 /* Shared Style */
+
+body{
+    font-family: "Inter", sans-serif;
+}
 .btn-primary{
     padding: 12px 16px;
     border-radius: 5px;
@@ -51,4 +57,91 @@
 .menu-items > ul > li{
     text-decoration: none;
     list-style-type: none;
+}
+
+/* Banner Section Start Here */
+
+.banner-container{
+    background: url(../assets/hero-bg.png);
+    width: 2042px;
+    height: 1260px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner-container-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#banner-top-btn{
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    color: #30B868;
+    margin-top: 140px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 230px;
+    height: 35px;
+    border-radius: 1000px;
+    padding: 8px 12px 8px 12px;
+    border: none;
+
+}
+
+.banner-txt{
+    font-size: 72px;
+    font-weight: 700;
+    margin: 16px 630px;
+}
+
+#txt-white{
+    color: rgba(255, 255, 255, 1);
+}
+
+#txt-green{
+    color: rgba(48, 184, 104, 1);
+}
+
+.banner-description{
+    color: rgba(255, 255, 255, 1);
+    opacity: 75%;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+}
+
+.banner-btn-container{
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+}
+.banner-btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 16px;
+    padding: 16px 12px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(70, 145, 101, 1);
+    border: none;
+    width: 250px;
+    height: 50px;
+}
+
+.banner-ply-btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 12px;
+    width: 200px;
+    height: 50px;
+    background: none;
+    font-size: 16px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 4px;
 }
